@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RSATestViewController.h
 //  iOSSecurity
 //
 //  Created by 吴湧霖 on 15/8/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RSATestViewController : UIViewController
 
 @end
-

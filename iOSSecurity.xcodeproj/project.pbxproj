@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A68BA344B23D4B73FDC5DFC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D974407EF4BE3F40139CD1 /* libPods.a */; };
 		A0714D0A1B84AF6300EE36D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0714D091B84AF6300EE36D3 /* main.m */; };
 		A0714D0D1B84AF6300EE36D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0714D0C1B84AF6300EE36D3 /* AppDelegate.m */; };
-		A0714D101B84AF6300EE36D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0714D0F1B84AF6300EE36D3 /* ViewController.m */; };
-		A0714D131B84AF6300EE36D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0714D111B84AF6300EE36D3 /* Main.storyboard */; };
 		A0714D151B84AF6300EE36D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0714D141B84AF6300EE36D3 /* Images.xcassets */; };
 		A0714D181B84AF6300EE36D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0714D161B84AF6300EE36D3 /* LaunchScreen.xib */; };
 		A0714D241B84AF6400EE36D3 /* iOSSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0714D231B84AF6400EE36D3 /* iOSSecurityTests.m */; };
+		A0714D351B84B0E400EE36D3 /* RSATestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0714D341B84B0E400EE36D3 /* RSATestViewController.m */; };
+		A0714D381B84B1BF00EE36D3 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = A0714D371B84B1BF00EE36D3 /* RSA.m */; };
+		A073DB261B85C1A300331E05 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = A073DB251B85C1A300331E05 /* public_key.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40C4C13414AA1A13C410ED80 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0714D041B84AF6300EE36D3 /* iOSSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0714D081B84AF6300EE36D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0714D091B84AF6300EE36D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0714D0B1B84AF6300EE36D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0714D0C1B84AF6300EE36D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A0714D0E1B84AF6300EE36D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0714D0F1B84AF6300EE36D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A0714D121B84AF6300EE36D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0714D141B84AF6300EE36D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A0714D171B84AF6300EE36D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A0714D1D1B84AF6400EE36D3 /* iOSSecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0714D221B84AF6400EE36D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0714D231B84AF6400EE36D3 /* iOSSecurityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSecurityTests.m; sourceTree = "<group>"; };
+		A0714D331B84B0E400EE36D3 /* RSATestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSATestViewController.h; sourceTree = "<group>"; };
+		A0714D341B84B0E400EE36D3 /* RSATestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSATestViewController.m; sourceTree = "<group>"; };
+		A0714D361B84B1BF00EE36D3 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		A0714D371B84B1BF00EE36D3 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		A073DB251B85C1A300331E05 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		B495D90B6B5FD6B07E05F17A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F4D974407EF4BE3F40139CD1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A68BA344B23D4B73FDC5DFC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3D72F6DC986492AD7AEF3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40C4C13414AA1A13C410ED80 /* Pods.debug.xcconfig */,
+				B495D90B6B5FD6B07E05F17A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FF32D4EC17D4FDC4539E331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D974407EF4BE3F40139CD1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0714CFB1B84AF6300EE36D3 = {
 			isa = PBXGroup;
 			children = (
 				A0714D061B84AF6300EE36D3 /* iOSSecurity */,
 				A0714D201B84AF6400EE36D3 /* iOSSecurityTests */,
 				A0714D051B84AF6300EE36D3 /* Products */,
+				2A3D72F6DC986492AD7AEF3B /* Pods */,
+				5FF32D4EC17D4FDC4539E331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +108,11 @@
 		A0714D061B84AF6300EE36D3 /* iOSSecurity */ = {
 			isa = PBXGroup;
 			children = (
+				A0714D321B84B02600EE36D3 /* Resource */,
+				A0714D2D1B84AFAD00EE36D3 /* RSA */,
+				A0714D2E1B84AFAD00EE36D3 /* ViewControllers */,
 				A0714D0B1B84AF6300EE36D3 /* AppDelegate.h */,
 				A0714D0C1B84AF6300EE36D3 /* AppDelegate.m */,
-				A0714D0E1B84AF6300EE36D3 /* ViewController.h */,
-				A0714D0F1B84AF6300EE36D3 /* ViewController.m */,
-				A0714D111B84AF6300EE36D3 /* Main.storyboard */,
-				A0714D141B84AF6300EE36D3 /* Images.xcassets */,
-				A0714D161B84AF6300EE36D3 /* LaunchScreen.xib */,
 				A0714D071B84AF6300EE36D3 /* Supporting Files */,
 			);
 			path = iOSSecurity;
@@ -119,6 +144,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A0714D2D1B84AFAD00EE36D3 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				A073DB251B85C1A300331E05 /* public_key.der */,
+				A0714D361B84B1BF00EE36D3 /* RSA.h */,
+				A0714D371B84B1BF00EE36D3 /* RSA.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		A0714D2E1B84AFAD00EE36D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0714D331B84B0E400EE36D3 /* RSATestViewController.h */,
+				A0714D341B84B0E400EE36D3 /* RSATestViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A0714D321B84B02600EE36D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A0714D141B84AF6300EE36D3 /* Images.xcassets */,
+				A0714D161B84AF6300EE36D3 /* LaunchScreen.xib */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0714D271B84AF6400EE36D3 /* Build configuration list for PBXNativeTarget "iOSSecurity" */;
 			buildPhases = (
+				853DE2300A691957A280AAF7 /* Check Pods Manifest.lock */,
 				A0714D001B84AF6300EE36D3 /* Sources */,
 				A0714D011B84AF6300EE36D3 /* Frameworks */,
 				A0714D021B84AF6300EE36D3 /* Resources */,
+				E4F77BA1345BF8889BDF1A99 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0714D131B84AF6300EE36D3 /* Main.storyboard in Resources */,
 				A0714D181B84AF6300EE36D3 /* LaunchScreen.xib in Resources */,
 				A0714D151B84AF6300EE36D3 /* Images.xcassets in Resources */,
+				A073DB261B85C1A300331E05 /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +269,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		853DE2300A691957A280AAF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F77BA1345BF8889BDF1A99 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0714D001B84AF6300EE36D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0714D101B84AF6300EE36D3 /* ViewController.m in Sources */,
 				A0714D0D1B84AF6300EE36D3 /* AppDelegate.m in Sources */,
 				A0714D0A1B84AF6300EE36D3 /* main.m in Sources */,
+				A0714D381B84B1BF00EE36D3 /* RSA.m in Sources */,
+				A0714D351B84B0E400EE36D3 /* RSATestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A0714D111B84AF6300EE36D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0714D121B84AF6300EE36D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A0714D161B84AF6300EE36D3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,6 +426,7 @@
 		};
 		A0714D281B84AF6400EE36D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C4C13414AA1A13C410ED80 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSSecurity/Info.plist;
@@ -355,6 +437,7 @@
 		};
 		A0714D291B84AF6400EE36D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B495D90B6B5FD6B07E05F17A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSSecurity/Info.plist;
@@ -416,6 +499,7 @@
 				A0714D291B84AF6400EE36D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0714D2A1B84AF6400EE36D3 /* Build configuration list for PBXNativeTarget "iOSSecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +508,7 @@
 				A0714D2C1B84AF6400EE36D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
